@@ -1,0 +1,744 @@
+Initialized logger!
+
+    Properties:
+        batch_size: 8,
+        lr: 1e-05,
+        max_epochs_to_train: 10,
+        validate_per_n: 25,
+        save_per_n: 25,
+        n_batches_to_val: -1
+        checkpoint_save_dir: ./checkpoints
+        checkpoint_name_format: unet_checkpoint_{}.pth
+        checkpoint_load_path: None
+    
+Loaded dataset!
+Epoch 1:
+Iteration 1 completed, running loss: 1.2874
+Epoch progress: 0.40%
+Iteration 2 completed, running loss: 1.2024
+Epoch progress: 0.80%
+Iteration 3 completed, running loss: 1.2432
+Epoch progress: 1.20%
+Iteration 4 completed, running loss: 1.0735
+Epoch progress: 1.60%
+Iteration 5 completed, running loss: 1.0090
+Epoch progress: 2.00%
+Iteration 6 completed, running loss: 0.9499
+Epoch progress: 2.40%
+Iteration 7 completed, running loss: 0.9874
+Epoch progress: 2.80%
+Iteration 8 completed, running loss: 1.1371
+Epoch progress: 3.20%
+Iteration 9 completed, running loss: 1.1124
+Epoch progress: 3.60%
+Iteration 10 completed, running loss: 1.0476
+Epoch progress: 4.00%
+Iteration 11 completed, running loss: 1.1292
+Epoch progress: 4.40%
+Iteration 12 completed, running loss: 1.2593
+Epoch progress: 4.80%
+Iteration 13 completed, running loss: 1.0485
+Epoch progress: 5.20%
+Iteration 14 completed, running loss: 0.9333
+Epoch progress: 5.60%
+Iteration 15 completed, running loss: 0.7852
+Epoch progress: 6.00%
+Iteration 16 completed, running loss: 0.7917
+Epoch progress: 6.40%
+Iteration 17 completed, running loss: 1.1738
+Epoch progress: 6.80%
+Iteration 18 completed, running loss: 0.9387
+Epoch progress: 7.20%
+Iteration 19 completed, running loss: 0.9216
+Epoch progress: 7.60%
+Iteration 20 completed, running loss: 1.0182
+Epoch progress: 8.00%
+Iteration 21 completed, running loss: 1.3724
+Epoch progress: 8.40%
+Iteration 22 completed, running loss: 0.9592
+Epoch progress: 8.80%
+Iteration 23 completed, running loss: 1.1324
+Epoch progress: 9.20%
+Iteration 24 completed, running loss: 1.2288
+Epoch progress: 9.60%
+Iteration 25 completed, running loss: 1.0293
+Epoch progress: 10.00%
+Validation completed with loss: 1.316479, accuracy: 84.87%
+Saved checkpoint at ./checkpoints/unet_checkpoint_25.pth!
+Iteration 26 completed, running loss: 0.7747
+Epoch progress: 10.40%
+Iteration 27 completed, running loss: 0.8624
+Epoch progress: 10.80%
+Iteration 28 completed, running loss: 0.8511
+Epoch progress: 11.20%
+Iteration 29 completed, running loss: 0.9286
+Epoch progress: 11.60%
+Iteration 30 completed, running loss: 0.8556
+Epoch progress: 12.00%
+Iteration 31 completed, running loss: 1.0154
+Epoch progress: 12.40%
+Iteration 32 completed, running loss: 1.0456
+Epoch progress: 12.80%
+Iteration 33 completed, running loss: 1.0857
+Epoch progress: 13.20%
+Iteration 34 completed, running loss: 0.7864
+Epoch progress: 13.60%
+Iteration 35 completed, running loss: 1.3006
+Epoch progress: 14.00%
+Iteration 36 completed, running loss: 1.2119
+Epoch progress: 14.40%
+Iteration 37 completed, running loss: 1.2079
+Epoch progress: 14.80%
+Iteration 38 completed, running loss: 0.9303
+Epoch progress: 15.20%
+Iteration 39 completed, running loss: 1.0899
+Epoch progress: 15.60%
+Iteration 40 completed, running loss: 0.9181
+Epoch progress: 16.00%
+Iteration 41 completed, running loss: 1.2629
+Epoch progress: 16.40%
+Iteration 42 completed, running loss: 0.9524
+Epoch progress: 16.80%
+Iteration 43 completed, running loss: 0.8089
+Epoch progress: 17.20%
+Iteration 44 completed, running loss: 0.8164
+Epoch progress: 17.60%
+Iteration 45 completed, running loss: 0.9642
+Epoch progress: 18.00%
+Iteration 46 completed, running loss: 1.1209
+Epoch progress: 18.40%
+Iteration 47 completed, running loss: 0.6846
+Epoch progress: 18.80%
+Iteration 48 completed, running loss: 0.8388
+Epoch progress: 19.20%
+Iteration 49 completed, running loss: 1.2678
+Epoch progress: 19.60%
+Iteration 50 completed, running loss: 0.8397
+Epoch progress: 20.00%
+Validation completed with loss: 1.090526, accuracy: 85.34%
+Saved checkpoint at ./checkpoints/unet_checkpoint_50.pth!
+Iteration 51 completed, running loss: 0.9563
+Epoch progress: 20.40%
+Iteration 52 completed, running loss: 1.0361
+Epoch progress: 20.80%
+Iteration 53 completed, running loss: 0.8913
+Epoch progress: 21.20%
+Iteration 54 completed, running loss: 1.1337
+Epoch progress: 21.60%
+Iteration 55 completed, running loss: 0.8304
+Epoch progress: 22.00%
+Iteration 56 completed, running loss: 0.9438
+Epoch progress: 22.40%
+Iteration 57 completed, running loss: 0.8150
+Epoch progress: 22.80%
+Iteration 58 completed, running loss: 0.8922
+Epoch progress: 23.20%
+Iteration 59 completed, running loss: 1.1077
+Epoch progress: 23.60%
+Iteration 60 completed, running loss: 0.8798
+Epoch progress: 24.00%
+Iteration 61 completed, running loss: 1.0664
+Epoch progress: 24.40%
+Iteration 62 completed, running loss: 0.9743
+Epoch progress: 24.80%
+Iteration 63 completed, running loss: 0.8415
+Epoch progress: 25.20%
+Iteration 64 completed, running loss: 0.9185
+Epoch progress: 25.60%
+Iteration 65 completed, running loss: 1.0026
+Epoch progress: 26.00%
+Iteration 66 completed, running loss: 1.0082
+Epoch progress: 26.40%
+Iteration 67 completed, running loss: 0.8797
+Epoch progress: 26.80%
+Iteration 68 completed, running loss: 0.9517
+Epoch progress: 27.20%
+Iteration 69 completed, running loss: 0.7807
+Epoch progress: 27.60%
+Iteration 70 completed, running loss: 1.2154
+Epoch progress: 28.00%
+Iteration 71 completed, running loss: 0.6916
+Epoch progress: 28.40%
+Iteration 72 completed, running loss: 0.7393
+Epoch progress: 28.80%
+Iteration 73 completed, running loss: 0.8611
+Epoch progress: 29.20%
+Iteration 74 completed, running loss: 0.8111
+Epoch progress: 29.60%
+Iteration 75 completed, running loss: 0.8852
+Epoch progress: 30.00%
+Validation completed with loss: 1.173424, accuracy: 81.68%
+Saved checkpoint at ./checkpoints/unet_checkpoint_75.pth!
+Iteration 76 completed, running loss: 1.1010
+Epoch progress: 30.40%
+Iteration 77 completed, running loss: 1.0785
+Epoch progress: 30.80%
+Iteration 78 completed, running loss: 0.8486
+Epoch progress: 31.20%
+Iteration 79 completed, running loss: 1.0326
+Epoch progress: 31.60%
+Iteration 80 completed, running loss: 0.7189
+Epoch progress: 32.00%
+Iteration 81 completed, running loss: 1.0082
+Epoch progress: 32.40%
+Iteration 82 completed, running loss: 1.1138
+Epoch progress: 32.80%
+Iteration 83 completed, running loss: 1.0144
+Epoch progress: 33.20%
+Iteration 84 completed, running loss: 1.2147
+Epoch progress: 33.60%
+Iteration 85 completed, running loss: 0.9050
+Epoch progress: 34.00%
+Iteration 86 completed, running loss: 0.7066
+Epoch progress: 34.40%
+Iteration 87 completed, running loss: 0.9597
+Epoch progress: 34.80%
+Iteration 88 completed, running loss: 1.1830
+Epoch progress: 35.20%
+Iteration 89 completed, running loss: 0.7780
+Epoch progress: 35.60%
+Iteration 90 completed, running loss: 0.8069
+Epoch progress: 36.00%
+Iteration 91 completed, running loss: 0.7355
+Epoch progress: 36.40%
+Iteration 92 completed, running loss: 0.8011
+Epoch progress: 36.80%
+Iteration 93 completed, running loss: 0.8776
+Epoch progress: 37.20%
+Iteration 94 completed, running loss: 0.9528
+Epoch progress: 37.60%
+Iteration 95 completed, running loss: 0.9426
+Epoch progress: 38.00%
+Iteration 96 completed, running loss: 0.8281
+Epoch progress: 38.40%
+Iteration 97 completed, running loss: 0.6598
+Epoch progress: 38.80%
+Iteration 98 completed, running loss: 1.0095
+Epoch progress: 39.20%
+Iteration 99 completed, running loss: 0.7499
+Epoch progress: 39.60%
+Iteration 100 completed, running loss: 1.2188
+Epoch progress: 40.00%
+Validation completed with loss: 1.075067, accuracy: 82.77%
+Saved checkpoint at ./checkpoints/unet_checkpoint_100.pth!
+Iteration 101 completed, running loss: 0.8890
+Epoch progress: 40.40%
+Iteration 102 completed, running loss: 0.8595
+Epoch progress: 40.80%
+Iteration 103 completed, running loss: 1.2141
+Epoch progress: 41.20%
+Iteration 104 completed, running loss: 0.8938
+Epoch progress: 41.60%
+Iteration 105 completed, running loss: 0.8835
+Epoch progress: 42.00%
+Iteration 106 completed, running loss: 0.9463
+Epoch progress: 42.40%
+Iteration 107 completed, running loss: 0.9022
+Epoch progress: 42.80%
+Iteration 108 completed, running loss: 0.6800
+Epoch progress: 43.20%
+Iteration 109 completed, running loss: 0.9670
+Epoch progress: 43.60%
+Iteration 110 completed, running loss: 0.7063
+Epoch progress: 44.00%
+Iteration 111 completed, running loss: 1.0780
+Epoch progress: 44.40%
+Iteration 112 completed, running loss: 0.6726
+Epoch progress: 44.80%
+Iteration 113 completed, running loss: 1.1552
+Epoch progress: 45.20%
+Iteration 114 completed, running loss: 0.8924
+Epoch progress: 45.60%
+Iteration 115 completed, running loss: 1.3069
+Epoch progress: 46.00%
+Iteration 116 completed, running loss: 0.9438
+Epoch progress: 46.40%
+Iteration 117 completed, running loss: 0.6989
+Epoch progress: 46.80%
+Iteration 118 completed, running loss: 0.9219
+Epoch progress: 47.20%
+Iteration 119 completed, running loss: 0.7918
+Epoch progress: 47.60%
+Iteration 120 completed, running loss: 0.7862
+Epoch progress: 48.00%
+Iteration 121 completed, running loss: 0.9245
+Epoch progress: 48.40%
+Iteration 122 completed, running loss: 0.9263
+Epoch progress: 48.80%
+Iteration 123 completed, running loss: 0.7975
+Epoch progress: 49.20%
+Iteration 124 completed, running loss: 0.8316
+Epoch progress: 49.60%
+Iteration 125 completed, running loss: 0.8689
+Epoch progress: 50.00%
+Validation completed with loss: 1.022781, accuracy: 88.10%
+Saved checkpoint at ./checkpoints/unet_checkpoint_125.pth!
+Iteration 126 completed, running loss: 0.8408
+Epoch progress: 50.40%
+Iteration 127 completed, running loss: 1.2452
+Epoch progress: 50.80%
+Iteration 128 completed, running loss: 0.9854
+Epoch progress: 51.20%
+Iteration 129 completed, running loss: 1.0177
+Epoch progress: 51.60%
+Iteration 130 completed, running loss: 0.7421
+Epoch progress: 52.00%
+Iteration 131 completed, running loss: 0.9432
+Epoch progress: 52.40%
+Iteration 132 completed, running loss: 0.8349
+Epoch progress: 52.80%
+Iteration 133 completed, running loss: 1.0565
+Epoch progress: 53.20%
+Iteration 134 completed, running loss: 0.8911
+Epoch progress: 53.60%
+Iteration 135 completed, running loss: 0.6950
+Epoch progress: 54.00%
+Iteration 136 completed, running loss: 0.7661
+Epoch progress: 54.40%
+Iteration 137 completed, running loss: 0.8633
+Epoch progress: 54.80%
+Iteration 138 completed, running loss: 0.8169
+Epoch progress: 55.20%
+Iteration 139 completed, running loss: 0.7265
+Epoch progress: 55.60%
+Iteration 140 completed, running loss: 1.0930
+Epoch progress: 56.00%
+Iteration 141 completed, running loss: 1.0118
+Epoch progress: 56.40%
+Iteration 142 completed, running loss: 1.0473
+Epoch progress: 56.80%
+Iteration 143 completed, running loss: 0.8252
+Epoch progress: 57.20%
+Iteration 144 completed, running loss: 0.6584
+Epoch progress: 57.60%
+Iteration 145 completed, running loss: 0.7459
+Epoch progress: 58.00%
+Iteration 146 completed, running loss: 0.7120
+Epoch progress: 58.40%
+Iteration 147 completed, running loss: 1.1038
+Epoch progress: 58.80%
+Iteration 148 completed, running loss: 0.8116
+Epoch progress: 59.20%
+Iteration 149 completed, running loss: 0.8512
+Epoch progress: 59.60%
+Iteration 150 completed, running loss: 0.7765
+Epoch progress: 60.00%
+Validation completed with loss: 1.028642, accuracy: 84.03%
+Saved checkpoint at ./checkpoints/unet_checkpoint_150.pth!
+Iteration 151 completed, running loss: 1.0536
+Epoch progress: 60.40%
+Iteration 152 completed, running loss: 0.8969
+Epoch progress: 60.80%
+Iteration 153 completed, running loss: 0.8468
+Epoch progress: 61.20%
+Iteration 154 completed, running loss: 0.8396
+Epoch progress: 61.60%
+Iteration 155 completed, running loss: 0.7877
+Epoch progress: 62.00%
+Iteration 156 completed, running loss: 0.8702
+Epoch progress: 62.40%
+Iteration 157 completed, running loss: 0.8039
+Epoch progress: 62.80%
+Iteration 158 completed, running loss: 0.9100
+Epoch progress: 63.20%
+Iteration 159 completed, running loss: 0.8497
+Epoch progress: 63.60%
+Iteration 160 completed, running loss: 0.8110
+Epoch progress: 64.00%
+Iteration 161 completed, running loss: 0.8123
+Epoch progress: 64.40%
+Iteration 162 completed, running loss: 0.9194
+Epoch progress: 64.80%
+Iteration 163 completed, running loss: 0.7979
+Epoch progress: 65.20%
+Iteration 164 completed, running loss: 0.8180
+Epoch progress: 65.60%
+Iteration 165 completed, running loss: 0.6815
+Epoch progress: 66.00%
+Iteration 166 completed, running loss: 1.1358
+Epoch progress: 66.40%
+Iteration 167 completed, running loss: 0.7447
+Epoch progress: 66.80%
+Iteration 168 completed, running loss: 0.6661
+Epoch progress: 67.20%
+Iteration 169 completed, running loss: 0.7421
+Epoch progress: 67.60%
+Iteration 170 completed, running loss: 0.9319
+Epoch progress: 68.00%
+Iteration 171 completed, running loss: 0.9240
+Epoch progress: 68.40%
+Iteration 172 completed, running loss: 0.6988
+Epoch progress: 68.80%
+Iteration 173 completed, running loss: 0.8533
+Epoch progress: 69.20%
+Iteration 174 completed, running loss: 0.7166
+Epoch progress: 69.60%
+Iteration 175 completed, running loss: 1.0323
+Epoch progress: 70.00%
+Validation completed with loss: 0.996655, accuracy: 87.67%
+Saved checkpoint at ./checkpoints/unet_checkpoint_175.pth!
+Iteration 176 completed, running loss: 0.9677
+Epoch progress: 70.40%
+Iteration 177 completed, running loss: 1.0062
+Epoch progress: 70.80%
+Iteration 178 completed, running loss: 0.7096
+Epoch progress: 71.20%
+Iteration 179 completed, running loss: 0.8133
+Epoch progress: 71.60%
+Iteration 180 completed, running loss: 1.0018
+Epoch progress: 72.00%
+Iteration 181 completed, running loss: 0.7942
+Epoch progress: 72.40%
+Iteration 182 completed, running loss: 0.8966
+Epoch progress: 72.80%
+Iteration 183 completed, running loss: 0.9691
+Epoch progress: 73.20%
+Iteration 184 completed, running loss: 0.8107
+Epoch progress: 73.60%
+Iteration 185 completed, running loss: 0.7142
+Epoch progress: 74.00%
+Iteration 186 completed, running loss: 0.7038
+Epoch progress: 74.40%
+Iteration 187 completed, running loss: 1.0170
+Epoch progress: 74.80%
+Iteration 188 completed, running loss: 0.8766
+Epoch progress: 75.20%
+Iteration 189 completed, running loss: 0.8503
+Epoch progress: 75.60%
+Iteration 190 completed, running loss: 0.8459
+Epoch progress: 76.00%
+Iteration 191 completed, running loss: 0.7530
+Epoch progress: 76.40%
+Iteration 192 completed, running loss: 0.7081
+Epoch progress: 76.80%
+Iteration 193 completed, running loss: 1.2155
+Epoch progress: 77.20%
+Iteration 194 completed, running loss: 0.7106
+Epoch progress: 77.60%
+Iteration 195 completed, running loss: 1.0519
+Epoch progress: 78.00%
+Iteration 196 completed, running loss: 0.7312
+Epoch progress: 78.40%
+Iteration 197 completed, running loss: 0.6775
+Epoch progress: 78.80%
+Iteration 198 completed, running loss: 0.9079
+Epoch progress: 79.20%
+Iteration 199 completed, running loss: 0.7263
+Epoch progress: 79.60%
+Iteration 200 completed, running loss: 0.8192
+Epoch progress: 80.00%
+Validation completed with loss: 1.001674, accuracy: 86.88%
+Saved checkpoint at ./checkpoints/unet_checkpoint_200.pth!
+Iteration 201 completed, running loss: 0.7276
+Epoch progress: 80.40%
+Iteration 202 completed, running loss: 0.7345
+Epoch progress: 80.80%
+Iteration 203 completed, running loss: 0.9762
+Epoch progress: 81.20%
+Iteration 204 completed, running loss: 0.7508
+Epoch progress: 81.60%
+Iteration 205 completed, running loss: 0.7415
+Epoch progress: 82.00%
+Iteration 206 completed, running loss: 0.7923
+Epoch progress: 82.40%
+Iteration 207 completed, running loss: 1.1831
+Epoch progress: 82.80%
+Iteration 208 completed, running loss: 1.0364
+Epoch progress: 83.20%
+Iteration 209 completed, running loss: 0.7145
+Epoch progress: 83.60%
+Iteration 210 completed, running loss: 0.7267
+Epoch progress: 84.00%
+Iteration 211 completed, running loss: 0.6307
+Epoch progress: 84.40%
+Iteration 212 completed, running loss: 0.9323
+Epoch progress: 84.80%
+Iteration 213 completed, running loss: 0.8314
+Epoch progress: 85.20%
+Iteration 214 completed, running loss: 0.8759
+Epoch progress: 85.60%
+Iteration 215 completed, running loss: 0.8231
+Epoch progress: 86.00%
+Iteration 216 completed, running loss: 0.6781
+Epoch progress: 86.40%
+Iteration 217 completed, running loss: 0.8960
+Epoch progress: 86.80%
+Iteration 218 completed, running loss: 0.8491
+Epoch progress: 87.20%
+Iteration 219 completed, running loss: 0.7722
+Epoch progress: 87.60%
+Iteration 220 completed, running loss: 0.7502
+Epoch progress: 88.00%
+Iteration 221 completed, running loss: 0.8063
+Epoch progress: 88.40%
+Iteration 222 completed, running loss: 0.7967
+Epoch progress: 88.80%
+Iteration 223 completed, running loss: 0.7159
+Epoch progress: 89.20%
+Iteration 224 completed, running loss: 0.6451
+Epoch progress: 89.60%
+Iteration 225 completed, running loss: 0.6418
+Epoch progress: 90.00%
+Validation completed with loss: 0.981950, accuracy: 87.12%
+Saved checkpoint at ./checkpoints/unet_checkpoint_225.pth!
+Iteration 226 completed, running loss: 0.7954
+Epoch progress: 90.40%
+Iteration 227 completed, running loss: 0.7380
+Epoch progress: 90.80%
+Iteration 228 completed, running loss: 0.6861
+Epoch progress: 91.20%
+Iteration 229 completed, running loss: 0.6025
+Epoch progress: 91.60%
+Iteration 230 completed, running loss: 1.1931
+Epoch progress: 92.00%
+Iteration 231 completed, running loss: 0.6194
+Epoch progress: 92.40%
+Iteration 232 completed, running loss: 0.7511
+Epoch progress: 92.80%
+Iteration 233 completed, running loss: 1.0846
+Epoch progress: 93.20%
+Iteration 234 completed, running loss: 0.7602
+Epoch progress: 93.60%
+Iteration 235 completed, running loss: 0.7243
+Epoch progress: 94.00%
+Iteration 236 completed, running loss: 0.9375
+Epoch progress: 94.40%
+Iteration 237 completed, running loss: 0.7940
+Epoch progress: 94.80%
+Iteration 238 completed, running loss: 0.5962
+Epoch progress: 95.20%
+Iteration 239 completed, running loss: 1.0214
+Epoch progress: 95.60%
+Iteration 240 completed, running loss: 1.0537
+Epoch progress: 96.00%
+Iteration 241 completed, running loss: 0.8659
+Epoch progress: 96.40%
+Iteration 242 completed, running loss: 0.7921
+Epoch progress: 96.80%
+Iteration 243 completed, running loss: 0.7284
+Epoch progress: 97.20%
+Iteration 244 completed, running loss: 0.7214
+Epoch progress: 97.60%
+Iteration 245 completed, running loss: 0.7330
+Epoch progress: 98.00%
+Iteration 246 completed, running loss: 0.8593
+Epoch progress: 98.40%
+Iteration 247 completed, running loss: 0.7110
+Epoch progress: 98.80%
+Iteration 248 completed, running loss: 0.7669
+Epoch progress: 99.20%
+Iteration 249 completed, running loss: 1.0217
+Epoch progress: 99.60%
+Iteration 250 completed, running loss: 0.8251
+Epoch progress: 100.00%
+Validation completed with loss: 0.989085, accuracy: 87.03%
+Saved checkpoint at ./checkpoints/unet_checkpoint_250.pth!
+Epoch 2:
+Iteration 251 completed, running loss: 0.7209
+Epoch progress: 0.40%
+Iteration 252 completed, running loss: 0.6794
+Epoch progress: 0.80%
+Iteration 253 completed, running loss: 1.2330
+Epoch progress: 1.20%
+Iteration 254 completed, running loss: 0.9169
+Epoch progress: 1.60%
+Iteration 255 completed, running loss: 0.8523
+Epoch progress: 2.00%
+Iteration 256 completed, running loss: 0.6592
+Epoch progress: 2.40%
+Iteration 257 completed, running loss: 0.7530
+Epoch progress: 2.80%
+Iteration 258 completed, running loss: 0.5997
+Epoch progress: 3.20%
+Iteration 259 completed, running loss: 1.0923
+Epoch progress: 3.60%
+Iteration 260 completed, running loss: 0.9488
+Epoch progress: 4.00%
+Iteration 261 completed, running loss: 0.9880
+Epoch progress: 4.40%
+Iteration 262 completed, running loss: 1.0741
+Epoch progress: 4.80%
+Iteration 263 completed, running loss: 0.8785
+Epoch progress: 5.20%
+Iteration 264 completed, running loss: 0.7908
+Epoch progress: 5.60%
+Iteration 265 completed, running loss: 0.7612
+Epoch progress: 6.00%
+Iteration 266 completed, running loss: 0.7391
+Epoch progress: 6.40%
+Iteration 267 completed, running loss: 0.9460
+Epoch progress: 6.80%
+Iteration 268 completed, running loss: 0.6819
+Epoch progress: 7.20%
+Iteration 269 completed, running loss: 0.6464
+Epoch progress: 7.60%
+Iteration 270 completed, running loss: 0.9317
+Epoch progress: 8.00%
+Iteration 271 completed, running loss: 0.9289
+Epoch progress: 8.40%
+Iteration 272 completed, running loss: 0.7846
+Epoch progress: 8.80%
+Iteration 273 completed, running loss: 0.6553
+Epoch progress: 9.20%
+Iteration 274 completed, running loss: 0.8487
+Epoch progress: 9.60%
+Iteration 275 completed, running loss: 0.7916
+Epoch progress: 10.00%
+Validation completed with loss: 0.942269, accuracy: 89.07%
+Saved checkpoint at ./checkpoints/unet_checkpoint_275.pth!
+Iteration 276 completed, running loss: 0.5620
+Epoch progress: 10.40%
+Iteration 277 completed, running loss: 0.5937
+Epoch progress: 10.80%
+Iteration 278 completed, running loss: 1.0845
+Epoch progress: 11.20%
+Iteration 279 completed, running loss: 0.7113
+Epoch progress: 11.60%
+Iteration 280 completed, running loss: 0.7899
+Epoch progress: 12.00%
+Iteration 281 completed, running loss: 0.8122
+Epoch progress: 12.40%
+Iteration 282 completed, running loss: 0.8435
+Epoch progress: 12.80%
+Iteration 283 completed, running loss: 0.6776
+Epoch progress: 13.20%
+Iteration 284 completed, running loss: 0.9463
+Epoch progress: 13.60%
+Iteration 285 completed, running loss: 0.7145
+Epoch progress: 14.00%
+Iteration 286 completed, running loss: 0.9975
+Epoch progress: 14.40%
+Iteration 287 completed, running loss: 0.7869
+Epoch progress: 14.80%
+Iteration 288 completed, running loss: 0.6818
+Epoch progress: 15.20%
+Iteration 289 completed, running loss: 0.7992
+Epoch progress: 15.60%
+Iteration 290 completed, running loss: 0.6770
+Epoch progress: 16.00%
+Iteration 291 completed, running loss: 0.6143
+Epoch progress: 16.40%
+Iteration 292 completed, running loss: 1.0194
+Epoch progress: 16.80%
+Iteration 293 completed, running loss: 0.8840
+Epoch progress: 17.20%
+Iteration 294 completed, running loss: 0.6465
+Epoch progress: 17.60%
+Iteration 295 completed, running loss: 0.6743
+Epoch progress: 18.00%
+Iteration 296 completed, running loss: 1.0271
+Epoch progress: 18.40%
+Iteration 297 completed, running loss: 0.7598
+Epoch progress: 18.80%
+Iteration 298 completed, running loss: 0.8776
+Epoch progress: 19.20%
+Iteration 299 completed, running loss: 0.7198
+Epoch progress: 19.60%
+Iteration 300 completed, running loss: 0.9949
+Epoch progress: 20.00%
+Validation completed with loss: 0.949016, accuracy: 88.04%
+Saved checkpoint at ./checkpoints/unet_checkpoint_300.pth!
+Iteration 301 completed, running loss: 0.9273
+Epoch progress: 20.40%
+Iteration 302 completed, running loss: 0.6983
+Epoch progress: 20.80%
+Iteration 303 completed, running loss: 0.7506
+Epoch progress: 21.20%
+Iteration 304 completed, running loss: 0.9583
+Epoch progress: 21.60%
+Iteration 305 completed, running loss: 0.8041
+Epoch progress: 22.00%
+Iteration 306 completed, running loss: 0.9397
+Epoch progress: 22.40%
+Iteration 307 completed, running loss: 0.7381
+Epoch progress: 22.80%
+Iteration 308 completed, running loss: 0.6670
+Epoch progress: 23.20%
+Iteration 309 completed, running loss: 0.7060
+Epoch progress: 23.60%
+Iteration 310 completed, running loss: 1.1127
+Epoch progress: 24.00%
+Iteration 311 completed, running loss: 0.8486
+Epoch progress: 24.40%
+Iteration 312 completed, running loss: 0.6977
+Epoch progress: 24.80%
+Iteration 313 completed, running loss: 0.8196
+Epoch progress: 25.20%
+Iteration 314 completed, running loss: 0.8135
+Epoch progress: 25.60%
+Iteration 315 completed, running loss: 0.6171
+Epoch progress: 26.00%
+Iteration 316 completed, running loss: 0.7304
+Epoch progress: 26.40%
+Iteration 317 completed, running loss: 0.8734
+Epoch progress: 26.80%
+Iteration 318 completed, running loss: 1.0425
+Epoch progress: 27.20%
+Iteration 319 completed, running loss: 0.7185
+Epoch progress: 27.60%
+Iteration 320 completed, running loss: 0.9208
+Epoch progress: 28.00%
+Iteration 321 completed, running loss: 0.7682
+Epoch progress: 28.40%
+Iteration 322 completed, running loss: 0.8384
+Epoch progress: 28.80%
+Iteration 323 completed, running loss: 0.7983
+Epoch progress: 29.20%
+Iteration 324 completed, running loss: 1.1369
+Epoch progress: 29.60%
+Iteration 325 completed, running loss: 0.7607
+Epoch progress: 30.00%
+Validation completed with loss: 0.917561, accuracy: 89.47%
+Saved checkpoint at ./checkpoints/unet_checkpoint_325.pth!
+Iteration 326 completed, running loss: 0.8826
+Epoch progress: 30.40%
+Iteration 327 completed, running loss: 0.8648
+Epoch progress: 30.80%
+Iteration 328 completed, running loss: 0.6511
+Epoch progress: 31.20%
+Iteration 329 completed, running loss: 0.6579
+Epoch progress: 31.60%
+Iteration 330 completed, running loss: 0.6256
+Epoch progress: 32.00%
+Iteration 331 completed, running loss: 0.7969
+Epoch progress: 32.40%
+Iteration 332 completed, running loss: 0.8474
+Epoch progress: 32.80%
+Iteration 333 completed, running loss: 0.7272
+Epoch progress: 33.20%
+Iteration 334 completed, running loss: 0.7042
+Epoch progress: 33.60%
+Iteration 335 completed, running loss: 0.9299
+Epoch progress: 34.00%
+Iteration 336 completed, running loss: 0.8693
+Epoch progress: 34.40%
+Iteration 337 completed, running loss: 0.8338
+Epoch progress: 34.80%
+Iteration 338 completed, running loss: 0.9891
+Epoch progress: 35.20%
+Iteration 339 completed, running loss: 0.7251
+Epoch progress: 35.60%
+Iteration 340 completed, running loss: 0.9316
+Epoch progress: 36.00%
+Iteration 341 completed, running loss: 0.7829
+Epoch progress: 36.40%
+Iteration 342 completed, running loss: 0.7200
+Epoch progress: 36.80%
+Iteration 343 completed, running loss: 0.9973
+Epoch progress: 37.20%
+Iteration 344 completed, running loss: 0.7076
+Epoch progress: 37.60%
+Iteration 345 completed, running loss: 0.7138
+Epoch progress: 38.00%
+Iteration 346 completed, running loss: 0.6965
+Epoch progress: 38.40%
+Iteration 347 completed, running loss: 0.8365
+Epoch progress: 38.80%
+Iteration 348 completed, running loss: 0.9684
+Epoch progress: 39.20%
+Iteration 349 completed, running loss: 0.7743
+Epoch progress: 39.60%
+Iteration 350 completed, running loss: 0.7399
+Epoch progress: 40.00%
+Validation completed with loss: 0.941181, accuracy: 88.66%
+Saved checkpoint at ./checkpoints/unet_checkpoint_350.pth!
