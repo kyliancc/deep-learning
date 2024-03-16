@@ -22,4 +22,5 @@ U-Net model code is from:
 > https://github.com/milesial/Pytorch-UNet
 
 Here's my result:
+
 ![Result](./image/Figure_1.png)
